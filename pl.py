@@ -4,7 +4,7 @@
 # =============================================
 
 # Step 1: Import the libraries we need
-import pandas as pd   # for working with data tables
+import pandas as pd   # type: ignore # for working with data tables
 
 
 def load_and_clean(path: str = 'WA_Fn-UseC_-Telco-Customer-Churn.csv') -> pd.DataFrame:
